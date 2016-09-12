@@ -7,10 +7,20 @@ a {
   color: #00B7FF;
 }
 .projectContainer {
-  border: 1px solid black;
+  width: 50%;
+  margin: 0 auto;
 }
-.project {
-  /*width: 50%;*/
-  height: 200px;
-  margin: 5px;
+.projectContainer .project {
+  height: 300px;
+  margin: 25px;
+  background-size: cover;
+}
+.projectContainer .goldSilverStockProject {
+  background-image: url(images/goldsilverstockpricealert.png);
+}
+.projectContainer .foundPetAlert {
+  background-image: url(images/foundPetAlert.png);
+}
+.projectContainer .digitalAtx {
+  background-image: url(images/digitalatx.png);
 }
