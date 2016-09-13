@@ -25,7 +25,7 @@ a {
   cursor: pointer;
 }
 .projectContainer .goldSilverStockProject {
-  background-image: url(images/goldsilverstockpricealert.png);
+  background-image: url(images/goldSilverStockPriceAlert.png);
 }
 .projectContainer .foundPetAlert {
   background-image: url(images/foundPetAlert.png);
