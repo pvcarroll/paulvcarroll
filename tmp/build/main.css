@@ -17,6 +17,7 @@ a {
   width: 50px;
   height: 3px;
   background-color: #AAA;
+  margin: 5px 0 3px;
 }
 .projectContainer .project {
   position: relative;
@@ -31,9 +32,10 @@ a {
   height: 100%;
   opacity: 0;
   color: #FFFFFF;
+  background-color: #222222;
 }
 .projectContainer .projectOverlay:hover {
-  opacity: 1;
+  opacity: .8;
 }
 .projectContainer .projectOverlay .projectOverlayText {
   position: absolute;
