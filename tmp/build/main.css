@@ -19,10 +19,29 @@ a {
   background-color: #AAA;
 }
 .projectContainer .project {
+  position: relative;
   height: 300px;
   margin: 25px;
   background-size: cover;
   cursor: pointer;
+}
+.projectContainer .projectOverlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  color: #FFFFFF;
+}
+.projectContainer .projectOverlay:hover {
+  opacity: 1;
+}
+.projectContainer .projectOverlay .projectOverlayText {
+  position: absolute;
+  bottom: 0px;
+  margin: 0 0 15px 15px;
+}
+.projectContainer .projectOverlay .projectOverlayTitle {
+  font-size: 1rem;
 }
 .projectContainer .goldSilverStockProject {
   background-image: url(images/goldSilverStocks.png);

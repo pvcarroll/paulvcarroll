@@ -23,10 +23,34 @@ a {
   }
 
   .project {
+    position: relative;
     height: 300px;
     margin: 25px;
     background-size: cover;
     cursor: pointer;
+  }
+
+  .projectOverlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    color: #FFFFFF;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    .projectOverlayText {
+      position: absolute;
+      bottom: 0px;
+      margin: 0 0 15px 15px;
+    }
+
+    .projectOverlayTitle {
+      font-size: 1rem;
+    }
+
   }
 
   .goldSilverStockProject {
