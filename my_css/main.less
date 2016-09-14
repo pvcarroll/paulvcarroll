@@ -2,6 +2,10 @@ body {
   padding: 0 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-color: #E5E5E5;
+
+  @media (max-width: 500px) {
+    padding: 10px;
+  }
 }
 
 a {
@@ -11,6 +15,10 @@ a {
 .projectContainer {
   width: 50%;
   margin: 0 auto;
+
+  @media (max-width: 1250px) {
+    width: initial;
+  }
 
   .projectsTitle {
     font-size: 1.2rem;
@@ -29,6 +37,19 @@ a {
     margin: 25px;
     background-size: cover;
     cursor: pointer;
+
+    @media (max-width: 1300px) {
+      height: 250px;
+    }
+    @media (max-width: 750px) {
+      height: 200px;
+    }
+    @media (max-width: 600px) {
+      height: 150px;
+    }
+    @media (max-width: 350px) {
+      height: 120px;
+    }
   }
 
   .projectOverlay {

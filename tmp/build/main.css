@@ -3,12 +3,22 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-color: #E5E5E5;
 }
+@media (max-width: 500px) {
+  body {
+    padding: 10px;
+  }
+}
 a {
   color: #00B7FF;
 }
 .projectContainer {
   width: 50%;
   margin: 0 auto;
+}
+@media (max-width: 1250px) {
+  .projectContainer {
+    width: initial;
+  }
 }
 .projectContainer .projectsTitle {
   font-size: 1.2rem;
@@ -25,6 +35,26 @@ a {
   margin: 25px;
   background-size: cover;
   cursor: pointer;
+}
+@media (max-width: 1300px) {
+  .projectContainer .project {
+    height: 250px;
+  }
+}
+@media (max-width: 750px) {
+  .projectContainer .project {
+    height: 200px;
+  }
+}
+@media (max-width: 600px) {
+  .projectContainer .project {
+    height: 150px;
+  }
+}
+@media (max-width: 350px) {
+  .projectContainer .project {
+    height: 120px;
+  }
 }
 .projectContainer .projectOverlay {
   position: absolute;
